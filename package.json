@@ -8,11 +8,14 @@
   },
   "keywords": [
     "array",
-    "content"
+    "get",
+    "remove",
+    "items"
   ],
   "author": "Steve Thompson",
   "license": "MIT",
   "dependencies": {
+    "error-if-not-primitive-or-array": "latest",
     "@writetome51/array-get-and-remove-all-before-or-after": "latest"
   }
 }
