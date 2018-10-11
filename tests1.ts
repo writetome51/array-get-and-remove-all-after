@@ -48,20 +48,18 @@ try{
 }
 catch (e) {
 	errorTriggered = true;
-	console.log(e.message);
 }
 if (errorTriggered) console.log('test 6 passed');
 else console.log('test 6 failed');
 
 
-// Test 7: if no args passed, should trigger error:
+// Test 7: if first arg is not primitive or array, should trigger error:
 errorTriggered = false;
 try{
-	getAndRemoveAllAfterFirst({});
+	getAndRemoveAllAfterFirst({}, arr);
 }
 catch (e) {
 	errorTriggered = true;
-	console.log(e.message);
 }
 if (errorTriggered) console.log('test 7 passed');
 else console.log('test 7 failed');
