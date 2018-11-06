@@ -23,6 +23,6 @@
   },
   "homepage": "https://github.com/writetome51/array-get-and-remove-all-after#readme",
   "dependencies": {
-    "@writetome51/array-get-and-remove-all-before-or-after": "latest"
+    "@writetome51/array-get-and-remove-all-before-or-after": "1.0.3"
   }
 }
