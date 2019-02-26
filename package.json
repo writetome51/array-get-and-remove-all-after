@@ -1,6 +1,6 @@
 {
   "name": "@writetome51/array-get-and-remove-all-after",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "A function that removes/returns all array items after the first instance of a value, and a function that removes/returns all array items after the last instance of a value",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
