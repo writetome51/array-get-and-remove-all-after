@@ -1,11 +1,13 @@
-# getAndRemoveAllAfterFirst(value, array): any[]
+# getAndRemoveAllAfterFirst(<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;value,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;array<br>): any[]
 
-Removes and returns everything after the first instance of `value` in `array`. 
+Removes and returns everything after the first instance of `value` in `array`.  
+`value` cannot be an object.  Arrays are OK.
 
 
-# getAndRemoveAllAfterLast(value, array): any[]
+# getAndRemoveAllAfterLast(<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;value,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;array<br>): any[]
 
-Removes and returns everything after the last instance of `value` in `array`.
+Removes and returns everything after the last instance of `value` in `array`.  
+`value` cannot be an object.  Arrays are OK.
 
 
 ## Examples
